@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\services\\jugadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\services\\partidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartidoService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\PartidoService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\PartidoService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\PartidoService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\PartidoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:26:58.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JugadorService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\JugadorService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\JugadorService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\JugadorService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\JugadorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:26:37.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
