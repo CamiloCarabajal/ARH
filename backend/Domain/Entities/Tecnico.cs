@@ -8,6 +8,6 @@ namespace Domain.Entities
 {
     public class Tecnico : User
     {
-
+        public string NombreClub { get; set; }
     }
 }
