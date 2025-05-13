@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Models;
+using Application.Models.Request;
 using Domain.Entities;
 using Domain.Interfaces;
 using System;
@@ -27,10 +28,13 @@ namespace Application.Services
             // Recibir una entidad y enviar un dto
         }
 
-        public Jugador Create(Jugador jugador) 
+        public JugadorDto Create(JugadorRequest jugadordto) 
         {
-            _repository.Add(jugador);
-            return jugador;
+            var jugadorEntity = JugadorDto.ToEntity(jugadordto);
+            _repository.Add(jugadorEntity);
+
+            var jugadorDto = JugadorDto.ToDto(jugadorEntity);
+            return jugadorDto;
         }        
     }
 }

@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.Models.Request;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,14 +25,15 @@ namespace Application.Models
             return dto;
         }
 
-        //public static Jugador ToEntity(JugadorRequest jugadorDto)
-        //{
-        //    var jugadorEntity = new Jugador()
-        //    {
-        //        Nombre = jugadorDto.Nombre,
-        //        Goles = jugadorDto.Goles,
-        //        Posicion = jugadorDto.Posicion
-        //    };
-        //}
+        public static Jugador ToEntity(JugadorRequest jugadorDto)
+        {
+            var jugadorEntity = new Jugador()
+            {
+                Nombre = jugadorDto.Nombre,
+                Email = jugadorDto.Email,
+                Posicion = jugadorDto.Posicion
+            };
+            return jugadorEntity;
+        }
     }
 }

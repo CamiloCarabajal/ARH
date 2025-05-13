@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using Application.Models.Request;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,9 +26,9 @@ namespace Web.Controllers
         }
         [HttpPost]
 
-        public IActionResult Create(Jugador jugador) 
+        public IActionResult Create(JugadorRequest jugadorRequest) 
         {
-            return Ok(_jugadorService.Create(jugador));
+            return Ok(_jugadorService.Create(jugadorRequest));
         }
 
     }

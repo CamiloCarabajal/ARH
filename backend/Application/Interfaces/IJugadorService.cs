@@ -1,4 +1,5 @@
 ﻿using Application.Models;
+using Application.Models.Request;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,6 @@ namespace Application.Interfaces
     public interface IJugadorService
     {
         public List<JugadorDto> GetAll();
-        public Jugador Create(Jugador jugador);
+        public JugadorDto Create(JugadorRequest jugadordto);
     }
 }
