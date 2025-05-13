@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using Application.Models;
 using Domain.Entities;
 using Domain.Interfaces;
 using System;
@@ -16,15 +17,20 @@ namespace Application.Services
         {
             _repository = jugadorRepository;
         }
-        public List<Jugador> GetAll() 
+        public List<JugadorDto> GetAll() 
         {
-            return _repository.GetAll();
+            var list = _repository.GetAll();
+
+            var dtoList= list.Select(JugadorDto.ToDto).ToList();
+            return dtoList;
+
+            // Recibir una entidad y enviar un dto
         }
 
         public Jugador Create(Jugador jugador) 
         {
             _repository.Add(jugador);
             return jugador;
-        }
+        }        
     }
 }

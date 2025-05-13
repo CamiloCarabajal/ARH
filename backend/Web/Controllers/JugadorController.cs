@@ -14,11 +14,13 @@ namespace Web.Controllers
         {
             _jugadorService = jugadorService;
         }
-
+        
         [HttpGet]
 
         public IActionResult Get() 
         {
+            // Nombre posicion y goles
+
             return Ok(_jugadorService.GetAll());
         }
         [HttpPost]
@@ -27,5 +29,6 @@ namespace Web.Controllers
         {
             return Ok(_jugadorService.Create(jugador));
         }
+
     }
 }

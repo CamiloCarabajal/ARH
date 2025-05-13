@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.Models;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Application.Interfaces
 {
     public interface IJugadorService
     {
-        public List<Jugador> GetAll();
+        public List<JugadorDto> GetAll();
         public Jugador Create(Jugador jugador);
     }
 }
