@@ -19,9 +19,11 @@ builder.Services.AddSwaggerGen();
 
 string connectionString = builder.Configuration["ConnectionStrings:ArhDBConnectionString"]!;
 
+// Configure the SQLite connection
 var connection = new SqliteConnection(connectionString);
 connection.Open();
 
+// Set journal mode to DELETE using PRAGMA statement
 using (var command = connection.CreateCommand())
 {
     command.CommandText = "PRAGMA journal_mode = DELETE;";
@@ -29,7 +31,23 @@ using (var command = connection.CreateCommand())
 }
 
 builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContextOptions.UseSqlite(connection, options =>
-        options.MigrationsAssembly("Web")));
+        options.MigrationsAssembly("Infrastructure")));
+
+//var connection = new SqliteConnection(connectionString);
+//connection.Open();
+
+//using (var command = connection.CreateCommand())
+//{
+//    command.CommandText = "PRAGMA journal_mode = DELETE;";
+//    command.ExecuteNonQuery();
+//}
+
+//builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions =>
+//    dbContextOptions.UseSqlite(connection, options =>
+//        options.MigrationsAssembly("Infrastructure")));
+
+//builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContextOptions.UseSqlite(connection, options =>
+//        options.MigrationsAssembly("Infrastructure")));
 
 #endregion
 
