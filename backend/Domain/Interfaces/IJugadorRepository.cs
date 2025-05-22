@@ -11,5 +11,8 @@ namespace Domain.Interfaces
     {
         public List<Jugador> GetAll();
         public Jugador Add(Jugador jugador);
+        public Jugador GetById(int id);
+        public Jugador Update(Jugador jugador);
+
     }
 }

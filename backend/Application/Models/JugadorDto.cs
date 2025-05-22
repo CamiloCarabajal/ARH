@@ -30,8 +30,11 @@ namespace Application.Models
             var jugadorEntity = new Jugador()
             {
                 Nombre = jugadorDto.Nombre,
+                Apellido = jugadorDto.Apellido,
                 Email = jugadorDto.Email,
-                Posicion = jugadorDto.Posicion
+                Posicion = jugadorDto.Posicion,
+                Goles = jugadorDto.Goles,
+                
             };
             return jugadorEntity;
         }

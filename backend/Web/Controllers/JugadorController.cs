@@ -24,6 +24,17 @@ namespace Web.Controllers
 
             return Ok(_jugadorService.GetAll());
         }
+
+        [HttpGet ("ById")]
+        public IActionResult  Get(int id) 
+        {
+            var jugador = _jugadorService.GetById;
+            if (jugador == null) 
+            {
+                return BadRequest();
+            }else
+                { return Ok(jugador); }
+        }
         [HttpPost]
 
         public IActionResult Create(JugadorRequest jugadorRequest) 
@@ -31,5 +42,17 @@ namespace Web.Controllers
             return Ok(_jugadorService.Create(jugadorRequest));
         }
 
+        [HttpPut]
+        public IActionResult Update(JugadorRequest jugadorRequest, int id)
+        {
+            var jugador = _jugadorService.Update(jugadorRequest, id);
+            if (jugador == null)
+            {
+                return BadRequest();
+            }
+            else
+            {
+                return Ok(jugador); }
+        }
     }
 }

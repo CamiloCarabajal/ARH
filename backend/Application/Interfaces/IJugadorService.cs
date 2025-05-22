@@ -13,5 +13,7 @@ namespace Application.Interfaces
     {
         public List<JugadorDto> GetAll();
         public JugadorDto Create(JugadorRequest jugadordto);
+        public JugadorDto GetById(int id);
+        public JugadorDto Update(JugadorRequest jugadorDto, int id);
     }
 }

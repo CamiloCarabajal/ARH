@@ -21,10 +21,21 @@ namespace Infrastructure.Repositories
         {
             return _context.Jugadores.ToList();
         }
-
+        public Jugador GetById(int id) 
+        {
+            return _context.Jugadores.Find(id);
+        }
         public Jugador Add(Jugador jugador) 
         {
             _context.Add(jugador);
+            _context.SaveChanges();
+            return jugador;
+        }
+
+        public Jugador Update(Jugador jugador) 
+        {
+            _context.Update(jugador);
+            _context.SaveChanges();
             return jugador;
         }
     }
