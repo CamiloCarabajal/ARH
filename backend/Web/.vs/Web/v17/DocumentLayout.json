@@ -3,14 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\models\\request\\jugadorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F33F71-2CB7-4554-BB60-482D1AB79268}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\infrastructure\\repositories\\partidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\models\\jugadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{669D1089-C9C0-4DD6-9724-2C71E99266CB}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\domain\\interfaces\\ipartidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\web\\controllers\\jugadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|solutionrelative:controllers\\jugadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\interfaces\\ijugadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\web\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|solutionrelative:controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\interfaces\\ipartidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\services\\partidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,8 +29,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IJugadorService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Interfaces\\IJugadorService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IJugadorService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Interfaces\\IJugadorService.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IJugadorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:30:33.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPartidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Interfaces\\IPartidoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IPartidoRepository.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Interfaces\\IPartidoRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IPartidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:25:29.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PartidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\PartidoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\PartidoRepository.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\PartidoRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\PartidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:23:44.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PartidoService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\PartidoService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\PartidoService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\PartidoService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\PartidoService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:21:09.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPartidoService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Interfaces\\IPartidoService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IPartidoService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Interfaces\\IPartidoService.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IPartidoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:19:13.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartidoController.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\PartidoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartidoController.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\PartidoController.cs",
+              "RelativeToolTip": "Controllers\\PartidoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:18:41.273Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -37,49 +124,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JugadorDto.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Models\\JugadorDto.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Models\\JugadorDto.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Models\\JugadorDto.cs",
-              "RelativeToolTip": "..\\Application\\Models\\JugadorDto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwCMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T23:04:17.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JugadorRequest.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Models\\Request\\JugadorRequest.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Models\\Request\\JugadorRequest.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Models\\Request\\JugadorRequest.cs",
-              "RelativeToolTip": "..\\Application\\Models\\Request\\JugadorRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T23:01:49.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JugadorController.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\JugadorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JugadorController.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\JugadorController.cs",
-              "RelativeToolTip": "Controllers\\JugadorController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBsAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:54:58.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
