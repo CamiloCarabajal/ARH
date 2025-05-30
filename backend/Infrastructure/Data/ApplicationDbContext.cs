@@ -15,6 +15,7 @@ namespace Infrastructure.Data
         public DbSet<Jugador> Jugadores { get; set; }
         public DbSet<Tecnico> Tecnicos { get; set; }
         public DbSet<Partido> Partidos { get; set; }
+        public DbSet<Club> Clubes { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, bool isTestingEnvironment = false) : base(options)
         {

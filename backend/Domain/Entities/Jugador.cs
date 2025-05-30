@@ -13,5 +13,6 @@ namespace Domain.Entities
         public int Goles { get; set; }
 
         public List<Partido> PartidosList { get; set; }
+        public Club Club { get; set; }
     }
 }
