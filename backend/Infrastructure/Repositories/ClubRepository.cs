@@ -23,5 +23,15 @@ namespace Infrastructure.Repositories
             var clubes=_context.Clubes.ToList();
             return clubes;
         }
+        public Club GetById(int id) 
+        {
+            return _context.Clubes.First(c => c.Id == id);
+        }
+        public  Club Create(Club club) 
+        {
+            _context.Clubes.Add(club);
+            return club;
+
+        }
     }
 }

@@ -10,6 +10,8 @@ namespace Domain.Interfaces
     public interface IClubRepository
     {
         public List<Club> GetAll();
+        public Club GetById(int id);
+        public Club Create(Club club);
 
     }
 }

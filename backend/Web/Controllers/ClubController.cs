@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using Application.Models.Request;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,6 +20,18 @@ namespace Web.Controllers
         public List<Club> GetAll()
         {
             return _clubService.GetAll();
+        }
+
+        [HttpGet("Id")]
+        public Club GetById(int id) 
+        {
+            return _clubService.GetById(id);
+        }
+
+        [HttpPost]
+        public IActionResult Create(ClubRequest club) 
+        {
+            return Ok(_clubService.Create(club));
         }
     }
 }
