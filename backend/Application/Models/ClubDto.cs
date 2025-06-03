@@ -34,5 +34,16 @@ namespace Application.Models
             };
             return entity;
         }
+        public static Club ToEntityUpdate(Club clubToUpdate,ClubUpdateRequest club) 
+        {
+            //club.Name = clubToUpdate.Name;
+            //club.Categorias = clubToUpdate.Categorias;
+            clubToUpdate.Name = club.Name;
+            clubToUpdate.Categorias = club.Categorias;
+
+            return clubToUpdate;
+
+        }
+
     }
 }

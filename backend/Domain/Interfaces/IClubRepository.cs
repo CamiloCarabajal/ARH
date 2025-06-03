@@ -12,6 +12,6 @@ namespace Domain.Interfaces
         public List<Club> GetAll();
         public Club GetById(int id);
         public Club Create(Club club);
-
+        public Club Update(Club club);
     }
 }

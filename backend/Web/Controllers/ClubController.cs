@@ -31,7 +31,13 @@ namespace Web.Controllers
         [HttpPost]
         public IActionResult Create(ClubRequest club) 
         {
+            
             return Ok(_clubService.Create(club));
+        }
+        [HttpPut("Id")]
+        public IActionResult Update(int id, ClubUpdateRequest club) 
+        {
+            return Ok(_clubService.Update(id, club));
         }
     }
 }

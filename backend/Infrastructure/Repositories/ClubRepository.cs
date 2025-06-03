@@ -27,11 +27,19 @@ namespace Infrastructure.Repositories
         {
             return _context.Clubes.First(c => c.Id == id);
         }
-        public  Club Create(Club club) 
+        public Club Create(Club club) 
         {
             _context.Clubes.Add(club);
+            _context.SaveChanges();
             return club;
 
+        }
+
+        public Club Update(Club club) 
+        {
+            _context.Clubes.Update(club);
+            _context.SaveChanges();
+            return club;
         }
     }
 }

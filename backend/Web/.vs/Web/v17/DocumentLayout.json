@@ -3,30 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9F33F71-2CB7-4554-BB60-482D1AB79268}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\infrastructure\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\web\\controllers\\jugadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|solutionrelative:controllers\\jugadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\models\\clubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9F33F71-2CB7-4554-BB60-482D1AB79268}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\infrastructure\\repositories\\jugadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669D1089-C9C0-4DD6-9724-2C71E99266CB}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\domain\\interfaces\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F33F71-2CB7-4554-BB60-482D1AB79268}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\infrastructure\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\web\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A119D29-E1BB-4BF7-8582-22380A9DCBB4}|Web.csproj|solutionrelative:controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\models\\clubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669D1089-C9C0-4DD6-9724-2C71E99266CB}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\domain\\entities\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669D1089-C9C0-4DD6-9724-2C71E99266CB}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\domain\\entities\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEFD0A63-BEFF-4CBF-A9D3-2532C0A809A3}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\proyectos\\arh\\arh\\backend\\application\\services\\jugadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,94 +48,59 @@
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JugadorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\JugadorRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\JugadorRepository.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\JugadorRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repositories\\JugadorRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:21:28.429Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JugadorController.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\JugadorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JugadorController.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\JugadorController.cs",
-              "RelativeToolTip": "Controllers\\JugadorController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwCcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:13:31.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Jugador.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Entities\\Jugador.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Jugador.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Entities\\Jugador.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Jugador.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:02:13.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ClubDto.cs",
               "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Models\\ClubDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Models\\ClubDto.cs",
               "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Models\\ClubDto.cs",
               "RelativeToolTip": "..\\Application\\Models\\ClubDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswCMAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T20:58:16.531Z",
+              "WhenOpened": "2025-06-03T21:28:31.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Club.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Entities\\Club.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Club.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Entities\\Club.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Club.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "JugadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\JugadorRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\JugadorRepository.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\JugadorRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\JugadorRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA3wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T20:57:28.873Z",
+              "WhenOpened": "2025-06-03T21:01:17.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "JugadorService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\JugadorService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\JugadorService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\JugadorService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\JugadorService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:00:00.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClubRepository.cs",
               "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\ClubRepository.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\ClubRepository.cs",
               "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Infrastructure\\Repositories\\ClubRepository.cs",
               "RelativeToolTip": "..\\Infrastructure\\Repositories\\ClubRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAYAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T20:54:29.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IClubRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Interfaces\\IClubRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IClubRepository.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Domain\\Interfaces\\IClubRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IClubRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:50:54.007Z",
+              "WhenOpened": "2025-06-03T20:28:42.681Z",
               "EditorCaption": ""
             },
             {
@@ -153,9 +111,22 @@
               "RelativeDocumentMoniker": "Controllers\\ClubController.cs",
               "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Web\\Controllers\\ClubController.cs",
               "RelativeToolTip": "Controllers\\ClubController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACEAAAAxAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:40:19.09Z",
+              "WhenOpened": "2025-06-03T20:26:47.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\ClubService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\Proyectos\\ARH\\ARH\\backend\\Application\\Services\\ClubService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\ClubService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:26:06.566Z",
               "EditorCaption": ""
             }
           ]

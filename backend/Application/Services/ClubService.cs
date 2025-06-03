@@ -5,6 +5,7 @@ using Domain.Entities;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,7 +35,26 @@ namespace Application.Services
             var entity= ClubDto.ToEntity(club);
 
             _clubRepository.Create(entity);
-
+           var dto= ClubDto.ToDto(entity);
+            return dto;
         }
+
+        public ClubDto Update(int id, ClubUpdateRequest club)
+        {
+            var clubToUpdate = _clubRepository.GetById(id);
+
+            if (clubToUpdate == null)
+            {
+                throw new Exception("No se encontro");
+            }
+            else 
+            {
+               var clubReady = ClubDto.ToEntityUpdate(clubToUpdate, club);
+                _clubRepository.Update(clubReady);
+                var response = ClubDto.ToDto(clubReady);
+                return response;
+            }
+        }
+
     }
 }

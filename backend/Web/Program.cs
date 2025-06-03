@@ -53,6 +53,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions =>
 
 builder.Services.AddScoped<IJugadorService, JugadorService>();
 builder.Services.AddScoped<IJugadorRepository, JugadorRepository>();
+builder.Services.AddScoped<IClubService, ClubService>();
+builder.Services.AddScoped<IClubRepository, ClubRepository>();
+builder.Services.AddScoped<IPartidoService, PartidoService>();
+builder.Services.AddScoped<IPartidoRepository, PartidoRepository>();
 
 var app = builder.Build();
 
