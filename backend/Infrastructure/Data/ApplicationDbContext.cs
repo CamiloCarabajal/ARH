@@ -24,7 +24,7 @@ namespace Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configuración de relaciones
-            modelBuilder.Entity<Jugador>()
+            modelBuilder.Entity<Jugador>()  // Jugador // Partido
                 .HasMany(j => j.PartidosList)
                 .WithMany(p => p.JugadorList);
 

@@ -47,11 +47,21 @@ namespace Application.Services
             {
                 throw new Exception("No se encontro");
             }
-            else 
+            else
             {
-               var clubReady = ClubDto.ToEntityUpdate(clubToUpdate, club);
-                _clubRepository.Update(clubReady);
-                var response = ClubDto.ToDto(clubReady);
+                // Actualizamos los campos directamente
+                clubToUpdate.Name = club.Name;
+                clubToUpdate.Categorias = club.Categorias;
+
+                var clubReady = _clubRepository.Update(clubToUpdate);
+
+                // Manualmente mapeamos a ClubDto
+                var response = new ClubDto
+                {
+                    Name = clubReady.Name,
+                    Categorias = clubReady.Categorias
+                };
+
                 return response;
             }
         }

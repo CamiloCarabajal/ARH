@@ -9,6 +9,7 @@ namespace Application.Models.Request
     public class ClubUpdateRequest
     {
         public string? Name { get; set; }
+
         public List<string>? Categorias { get; set; }
     }
 }

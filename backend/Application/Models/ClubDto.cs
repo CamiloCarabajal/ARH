@@ -34,15 +34,24 @@ namespace Application.Models
             };
             return entity;
         }
-        public static Club ToEntityUpdate(Club clubToUpdate,ClubUpdateRequest club) 
+        //public static Club ToEntityUpdate(Club clubToUpdate,ClubUpdateRequest club) 
+        //{
+        //    //club.Name = clubToUpdate.Name;
+        //    //club.Categorias = clubToUpdate.Categorias;
+        //    clubToUpdate.Name = club.Name;
+        //    clubToUpdate.Categorias = club.Categorias;
+
+        //    return clubToUpdate;
+
+        //}
+        public static Club ToEntityUpdate( ClubUpdateRequest club) 
         {
-            //club.Name = clubToUpdate.Name;
-            //club.Categorias = clubToUpdate.Categorias;
-            clubToUpdate.Name = club.Name;
-            clubToUpdate.Categorias = club.Categorias;
-
-            return clubToUpdate;
-
+            var entity = new Club()
+            {
+                Name = club.Name,
+                Categorias = club.Categorias
+            };
+            return entity;
         }
 
     }
