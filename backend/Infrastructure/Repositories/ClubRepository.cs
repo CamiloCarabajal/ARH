@@ -41,5 +41,11 @@ namespace Infrastructure.Repositories
             _context.SaveChanges();
             return club;
         }
+
+        public Club Delete(Club obj) 
+        {
+            _context.Clubes.Remove(obj);
+            return null;
+        }
     }
 }

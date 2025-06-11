@@ -66,5 +66,13 @@ namespace Application.Services
             }
         }
 
+        public Club Delete(int id) 
+        {
+            var finObj= _clubRepository.GetById(id);
+            _clubRepository.Delete(finObj);
+            return null;
+            
+        }
+
     }
 }

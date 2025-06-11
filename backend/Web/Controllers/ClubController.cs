@@ -39,5 +39,11 @@ namespace Web.Controllers
         {
             return Ok(_clubService.Update(id, club));
         }
+
+        [HttpDelete]
+        public IActionResult Delete(int id) 
+        {
+            return Ok(_clubService.Delete(id));
+        }
     }
 }

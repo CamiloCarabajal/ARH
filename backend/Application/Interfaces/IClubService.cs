@@ -15,5 +15,6 @@ namespace Application.Interfaces
         public Club GetById(int id);
         public ClubDto Create(ClubRequest club);
         public ClubDto Update(int id, ClubUpdateRequest club);
+        public Club Delete(int id);
     }
 }

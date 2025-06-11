@@ -13,5 +13,6 @@ namespace Domain.Interfaces
         public Club GetById(int id);
         public Club Create(Club club);
         public Club Update(Club club);
+        public Club Delete(Club obj);
     }
 }
