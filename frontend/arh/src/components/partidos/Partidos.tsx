@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 const Partidos = () => {
   return (
-    <div>
+        <div>
         <h1> PARTIDOS</h1>
     </div>
   )

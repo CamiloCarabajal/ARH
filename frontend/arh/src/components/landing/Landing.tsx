@@ -2,6 +2,7 @@ import Footer from "../footer/Footer"
 import Header from "../header/Header"
 import Hero from "../hero/Hero"
 import Information from "../information/Information"
+import Noticias from "../noticias/Noticias"
 
 const Landing = () => {
   return (
@@ -9,6 +10,7 @@ const Landing = () => {
      <Header/>
      <Hero/>
      <Information/>
+     <Noticias/>
      <Footer/>
      
 

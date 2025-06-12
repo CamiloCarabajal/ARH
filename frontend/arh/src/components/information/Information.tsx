@@ -9,18 +9,21 @@ const Information = () => {
     const features = [
     {
       title: "Partidos",
-      text: "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      text: "Torneo RosarinoS",
       route: "/partidos",
+      Image: "https://images.noz-mhn.de/img/23527365/crop/cbase_16_9-w748-h420/1389706862/1407990704/9e367433da4d57a5c8e2359da451334d.jpg"
     },
     {
       title: "Clubes",
-      text: "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+      text: "Queres saber en que equipo te podes sumar? entra a esta seccion para enterarte de toda la informacion.",
       route: "/clubes",
+      Image: "https://handballargentina.org/cah/wp-content/uploads/2019/05/MG_9918.jpg"
     },
     {
       title: "Arbitros",
-      text: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.",
+      text: "Informacion sobre nuestros aribtros rosarinos. Quienes son? Como formar parte de ellos? Cursos y mas en esta seccion",
        route: "/arbitros",
+       Image: "https://thumbs.dreamstime.com/b/handball-referee-show-yellow-card-showing-romanian-league-play-off-game-dinamo-bucharest-dunarea-calarasi-54230100.jpg"
     },
   ];
 
@@ -30,7 +33,7 @@ const Information = () => {
         {features.map((feature, index) => (
           <Col key={index} md={4} className="text-center mb-4">
             <Image
-              src="https://via.placeholder.com/140"
+              src={feature.Image}
               roundedCircle
               width="140"
               height="140"
