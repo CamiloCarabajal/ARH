@@ -6,7 +6,7 @@ import Noticias from "../noticias/Noticias"
 
 const Landing = () => {
   return (
-    <div className="bg-danger">
+    <div className="bg-white">
      <Header/>
      <Hero/>
      <Information/>

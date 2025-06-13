@@ -1,33 +1,87 @@
+import imagen from "../../images/Momentos Handball.png";
+import imagen2 from "../../images/KempaHandball.png";
+import imagen3 from "../../images/PibesHandball.png";
+
 const Noticias = () => {
   return (
     <div>
-      <div className="card mb-3">
-        <img src="https://media.sitioandino.com.ar/p/20f189024800725e94f1e4ca62e84a93/adjuntos/335/imagenes/000/621/0000621719/1200x630/smart/imagepng.png" className="card-img-top" alt="Noticia 1" />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-          </p>
-          <p className="card-text">
-            <small className="text-body-secondary">Last updated 3 mins ago</small>
-          </p>
-        </div>
+      <hr className="featurette-divider"></hr>
+      <div className="row featurette">
+        {" "}
+        <div className="col-md-7">
+          {" "}
+          <h2 className="featurette-heading fw-normal lh-1">
+            First featurette heading.{" "}
+            <span className="text-body-secondary">It’ll blow your mind.</span>
+          </h2>{" "}
+          <p className="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>{" "}
+        </div>{" "}
+        <div className="col-md-5">
+          {" "}
+          <img
+            src={imagen}
+            alt="Descripción de la imagen"
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+          />
+        </div>{" "}
       </div>
-
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-          </p>
-          <p className="card-text">
-            <small className="text-body-secondary">Last updated 3 mins ago</small>
-          </p>
-        </div>
-        <img src="https://3.bp.blogspot.com/-hThh2-5nbQQ/W90LdQaTXQI/AAAAAAAA8dk/O1FrkpES7x8WKQyrtT1dND0VnNUaJL-uwCLcBGAs/s1600/_MG_9951.jpg" className="card-img-bottom" alt="Noticia 2" />
+      <hr className="featurette-divider"></hr>
+      <div className="row featurette">
+        {" "}
+        <div className="col-md-7 order-md-2">
+          {" "}
+          <h2 className="featurette-heading fw-normal lh-1">
+            Oh yeah, it’s that good.{" "}
+            <span className="text-body-secondary">See for yourself.</span>
+          </h2>{" "}
+          <p className="lead">
+            Another featurette? Of course. More placeholder content here to give
+            you an idea of how this layout would work with some actual
+            real-world content in place.
+          </p>{" "}
+        </div>{" "}
+        <div className="col-md-5 order-md-1">
+          {" "}
+          <img
+            src={imagen2}
+            alt="Descripción de la imagen"
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+          />
+        </div>{" "}
       </div>
+      <hr className="featurette-divider"></hr>
+      <div className="row featurette">
+        {" "}
+        <div className="col-md-7">
+          {" "}
+          <h2 className="featurette-heading fw-normal lh-1">
+            First featurette heading.{" "}
+            <span className="text-body-secondary">It’ll blow your mind.</span>
+          </h2>{" "}
+          <p className="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>{" "}
+        </div>{" "}
+        <div className="col-md-5">
+          {" "}
+          <img
+            src={imagen3}
+            alt="Descripción de la imagen"
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+          />
+        </div>{" "}
+      </div>
+      <hr className="featurette-divider"></hr>
     </div>
   );
 };
