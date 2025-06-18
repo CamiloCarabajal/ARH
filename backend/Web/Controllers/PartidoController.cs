@@ -10,17 +10,23 @@ namespace Web.Controllers
     {
         private readonly IPartidoService _service;
 
-        public PartidoController (IPartidoService service)
+        public PartidoController(IPartidoService service)
         {
             _service = service;
         }
 
 
         [HttpGet]
-        public IActionResult GetAll() 
+        public IActionResult GetAll()
         {
             return Ok(_service.GetAll()); // Para el click de ver partidos (Falta Dto)
 
+        }
+        [HttpGet("id")]
+
+        public IActionResult Get(int id) 
+        {
+            return Ok();
         }
     }
 }
