@@ -54,7 +54,7 @@ const clubes: Club[] = [
   },
   {
     id: 6,
-    name: "Oeste Handball",
+    name: "Rosario Oeste Handball",
     image: "https://via.placeholder.com/150",
     address: "Corrientes 1234",
     schedule: "Miércoles y Viernes de 19 a 21hs",
@@ -62,7 +62,7 @@ const clubes: Club[] = [
   },
   {
     id: 7,
-    name: "Club Centro",
+    name: "Club Central Cordoba",
     image: "https://via.placeholder.com/150",
     address: "Córdoba 555",
     schedule: "Lunes a Viernes de 17 a 21hs",
@@ -78,7 +78,7 @@ const clubes: Club[] = [
   },
   {
     id: 9,
-    name: "Nueva Generación",
+    name: "Nueva Aurora",
     image: "https://via.placeholder.com/150",
     address: "Urquiza 789",
     schedule: "Martes y Jueves de 18 a 22hs",
